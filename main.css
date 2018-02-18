@@ -3,18 +3,77 @@
     content: "";
     clear: both;
   }
-  
-  nav {
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 46px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+div.box,
+div.box2,
+div.box3 {
+    text-align: center;
+    margin: 14px;
+    padding: 36px 14px 40px 24px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px 0 rgba(0,0,0,.1);
+    background: #207cfc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #207cfc, #65a5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #207cfc, #65a5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #207cfc, #65a5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #207cfc, #65a5ff); /* Standard syntax */
+}
+
+div.box2 {
+    background: #207cfc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #20fcb3, #65a5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #20fcb3, #65a5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #20fcb3, #65a5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #20fcb3, #65a5ff); /* Standard syntax */
+}
+
+div.box3 {
+    background: #207cfc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #96c066, #dee9d1); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #96c066, #dee9d1); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #96c066, #dee9d1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #96c066, #dee9d1); /* Standard syntax */
+}
+
+nav {
     width: 100%;
     margin: 0px;
+    font-size: 22px;
   }
   
-  nav ul {
-    background-color: #eee;
+nav ul {
+    background-color: #c3db6d;
     overflow: hidden;
     margin: 0;
     padding: 0;
-  }
+}
   
   ul.topnav li {
     list-style: none;
@@ -28,11 +87,11 @@
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #666;
+    color: #0e2796;
   }
   
   ul.topnav li a:hover {
-    background-color: #0080ff;
+    background-color: #ff0022;
     color: #fff;
   }
   
@@ -70,6 +129,8 @@
   
   .right {
     float: right;
+    padding: 10px 40px 10px 40px;
+    margin: 10px 40px 10px 40px;
   }
   
   footer.footsy {
@@ -107,3 +168,18 @@
   .hn-btn[disabled] {
     background: gray;
   }
+
+table {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+table caption {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.js-hn-root {
+    text-align: center;
+}
