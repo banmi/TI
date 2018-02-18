@@ -86,9 +86,8 @@
   .hn-btn {
     background: #3498db;
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    border-radius: 28px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border: 0;
@@ -103,4 +102,8 @@
   .hn-btn.active {
     background: #3498db;
     background-image: linear-gradient(to bottom, #3498db, #28bdeb);
+  }
+  
+  .hn-btn[disabled] {
+    background: gray;
   }
