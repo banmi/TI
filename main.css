@@ -1,0 +1,106 @@
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  
+  nav {
+    width: 100%;
+    margin: 0px;
+  }
+  
+  nav ul {
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.topnav li {
+    list-style: none;
+    float: left;
+  }
+  
+  ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 20px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+  }
+  
+  ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: #fff;
+  }
+  
+  td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgray;
+  }
+  
+  .spacer {
+    border: 0;
+  }
+  
+  .guide {
+    border: 0;
+  }
+  
+  .guide--horiz {
+    text-align: center;
+  }
+  
+  .guide--vert {
+    text-align: right;
+  }
+  
+  .ship {
+    background: lightgray;
+    border: 1px solid gray;
+  }
+  
+  aside {
+    border: 1px solid lightgray;
+    padding: 10px;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  footer.footsy {
+    background-color: #fff;
+    float: right;
+  }
+  
+  form {
+    width: 40%;
+  
+  }
+  
+  
+  .hn-btn {
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 0;
+  }
+  
+  .hn-btn:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  
+  .hn-btn.active {
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #28bdeb);
+  }
