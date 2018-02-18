@@ -1,173 +1,117 @@
-<!doctype html>
-<html lang="pl">
-    
-<head>
-    <title>My CSS Website</title>
-    <link rel="stylesheet" href="main.css">
-</head>
+<!DOCTYPE html>
+<html>
 
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+
+  <body>
     <nav>
-        <ul class="topnav" id="dropdownClick">
-            <li><a href="#home">Home</a></li>  
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="topnav-right"><a href="#signup">Sign up</a></li>
-            <li class="topnav-right"><a href="#signin">Sign In</a></li>
-            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
-        </ul>
+      <ul class="topnav">
+        <li><a href="/main">Strona główna</a></li>
+        <li><a href="/contact">Kontakt</a></li>
+        <li><a href="/uni">Uczelnia</a></li>
+      </ul>
     </nav>
-  
 
-    <div class="container" id="section-1-gradient">
-        <div class="row">
-            <div class="col-6">
-                <div class="leftSide-col">
-                    <h1 class="large">Fishing for Dummies</h1>
-                    
-                </div>
-                <form>
-                    <div class="leftSide-col">
-                        <h2>Username</h2>
-                        <input class="inputbox" name="username" type="text" placeholder="Username">
-                        <h2>Password</h2>
-                        <input class="inputbox" name="password" type="text" placeholder="Password">
-                    </div>
-                </form>
-            </div>
-            <div class="col-6">
-                <div class="rightSide-col">
-                    <div class="videoContainer">
-                    <iframe width="560" height="315"
-src="https://www.youtube.com/embed/WCrsPiFQ2Mg" frameborder="0 " allowfullscreen>
-</iframe>
-                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-        <header>
-            <h1 class="section2Header">The standards of "Method Feeder" carping!</h1>
-        </header>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="box">
-                        <div class="icon">
-                            <img src="carp.png">
-                        </div>
-                        <label>Chat with us</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="box">
-                        <div class="icon">
-                            <img src="carp.png">
-                        </div>
-                        <label>Learn to code</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="box">
-                        <div class="icon">
-                            <img src="carp.png">
-                        </div>
-                        <label>Build an empire</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <button class="learnMore">Learn More</button>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-7"><article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    </article>
-                </div>
-                <div class="col-5">
-                    <div class="slopeIcon">
-                        <img src="iOS-Slope.png">
-                    </div>
-                </div>
-             </div>   
+    <header></header>
+    <main>
+      <h1>Strona główna</h1>
+      <article>
+        <h2>Zainteresowania</h2>
+        <p>Interesuję się grą w statki i hackernewsami. Dalszy ciąg artykułu o zainteresowaniach. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam tempore necessitatibus, totam ducimus, cum quos voluptas quia obcaecati porro saepe vero
+          blanditiis, repellat et cumque! Deleniti quibusdam ipsa ipsum dolores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quasi adipisci repellat quae libero iure amet. Nesciunt ab, commodi neque dolor excepturi saepe fuga doloremque,
+          velit numquam repellat aut perspiciatis. Autem eaque in dolorem minus ipsam possimus. Tempore eaque iure excepturi aperiam omnis, sit, dolor rerum ipsa. Eius itaque dolorum, dignissimos saepe voluptate quae facere! Cupiditate libero, accusantium
+          tempore doloribus, repellendus repellat, nemo distinctio veritatis rerum commodi repudiandae, ipsa incidunt. Dicta eum et ut quasi consectetur dolorum excepturi eaque labore deserunt odit, maiores quibusdam molestiae, tempore rerum sint sequi
+          explicabo adipisci accusantium nemo delectus perferendis voluptatibus quaerat nostrum amet. Magni.</p>
+
+        <div class="clearfix">
+
+          <h3>Gra w statki</h3>
+          <aside class="right">
+            <table>
+              <caption>Ostatnia gra w statki</caption>
+              <thead>
+                <tr>
+                  <td class="spacer"></td>
+                  <td class="guide guide--horiz">A</td>
+                  <td class="guide guide--horiz">B</td>
+                  <td class="guide guide--horiz">C</td>
+                  <td class="guide guide--horiz">D</td>
+                  <td class="guide guide--horiz">E</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="guide guide--vert">1</td>
+                  <td colspan="2" class="ship"></td>
+                  <td></td>
+                  <td rowspan="2" class="ship"></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="guide guide--vert">2</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="guide guide--vert">3</td>
+                  <td rowspan="3" class="ship"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="guide guide--vert">4</td>
+                  <td></td>
+                  <td colspan="3" class="ship"></td>
+                </tr>
+                <tr>
+                  <td class="guide guide--vert">5</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </aside>
+          <p>Moja ostatnia rozgrywka była bardzo interesujaca. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique cupiditate exercitationem illo earum deserunt! Earum id quidem commodi, illo quis deleniti iusto, corporis ipsa delectus porro
+            quos eaque aliquam laudantium aliquid iure praesentium est animi ea! Dolore sunt unde, ipsum voluptates magnam magni hic sed nobis adipisci labore dolorum? Alias.</p>
         </div>
 
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-7"><article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    </article>
-                </div>
-                <div class="col-5">
-                    <div class="slopeIcon">
-                        <img src="iOS-Slope.png">
-                    </div>
-                </div>
-             </div>   
+        <h3>Hackernewsy</h3>
+        <div class="js-hn-root">
+          <nav>
+            <button class="hn-btn js-hn-top">Top stories</button>
+            <button class="hn-btn js-hn-best">Best stories</button>
+            <button class="hn-btn js-hn-new">New stories</button>
+          </nav>
+          <div class="js-hn-results"></div>
         </div>
-    
+      </article>
+    </main>
+    <hr>
     <footer class="footsy">
-        <div class="row">
-            <div class="col-3 mobileStack">
-                <h1>Company</h1>
-                <ul>
-                    <li>About</li>
-                    <li>Blogs</li>
-                    <li>Careers</li>
-                </ul>
-            </div>
-            <div class="col-3 mobileStack">
-                <h1>Company</h1>
-                <ul>
-                    <li>About</li>
-                    <li>Blogs</li>
-                    <li>Careers</li>
-                </ul>
-            </div>
-            <div class="col-3 mobileStack">
-                <h1>Company</h1>
-                <ul>
-                    <li>About</li>
-                    <li>Blogs</li>
-                    <li>Careers</li>
-                </ul>
-            </div>
-            <div class="col-3 mobileStack">
-                <h1>Company</h1>
-                <ul>
-                    <li>About</li>
-                    <li>Blogs</li>
-                    <li>Careers</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    
 
-    <script>
-        function dropdownMenu() {
-            var x = document.getElementById("dropdownClick");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-                /* change topnav to topnav.responsive*/
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-    
-</body>
+      <form>
+        <label>Imie i nazwisko</label>
+        <input class="inputbox" name="name" type="text" placeholder="Jan kowalski">
+
+        <label>Email</label>
+        <input class="inputbox" name="email" type="email" placeholder="biuro@email.com">
+
+        <label>Wiadomość</label>
+        <textarea name="message" placeholder="Napisz tu wiadomość"></textarea>
+
+        <input id="submit" name="submit" type="submit" value="Wyślij">
+
+      </form>
+    </footer>
+  </body>
 
 </html>
