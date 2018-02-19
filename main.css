@@ -194,6 +194,10 @@ table caption {
 
 .footsy {
   padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
 }
 
 .uni {
