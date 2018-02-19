@@ -201,11 +201,15 @@ table caption {
 }
 
 .uni {
-  display:block;
+  display: block;
   padding: 30px 30px;
   margin-bottom:15px;
   background-color:#ffffffb7; 
   border:2px solid #ccc; 
   border-radius:10px; 
 }
-  
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
