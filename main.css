@@ -154,14 +154,14 @@ table caption {
 }
 
 .contact {
+  display: block;
   width:300px; 
-  margin:0 auto; 
   background-color:#fff; 
   border:2px solid #ccc; 
   border-radius:10px; 
   padding:20px; 
   margin-top:20px; 
-  font-size: 
+  margin-left: 200px;
 }
 
 .contact label {
@@ -185,3 +185,4 @@ table caption {
 .footsy {
   padding: 20px;
 }
+
