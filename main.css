@@ -174,8 +174,7 @@ table caption {
   border:2px solid #ccc; 
   border-radius:10px; 
   padding:20px; 
-  margin-top:20px; 
-  margin-left: 200px;
+
 }
 
 .contact label {
@@ -198,7 +197,7 @@ table caption {
 #contact2 {
   padding: auto;
   margin: auto;
-  margin-top: 20px;
+
 }
 
 #contact2 textarea {
@@ -207,11 +206,11 @@ table caption {
 }
 
 .footsy {
-  padding: 20px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-
+  padding-left: 200px;;
 }
 
 .uni {
