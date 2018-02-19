@@ -191,9 +191,15 @@ table caption {
 	margin-bottom:25px; 
 	width:245px; 
 }
+#contact2 {
+  padding: auto;
+  margin: auto;
+  margin-top: 20px;
+}
 
 #contact2 textarea {
   height: 200px;
+
 }
 
 .footsy {
