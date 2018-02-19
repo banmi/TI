@@ -192,6 +192,10 @@ table caption {
 	width:245px; 
 }
 
+#contact2 textarea {
+  height: 200px;
+}
+
 .footsy {
   padding: 20px;
   display: flex;
