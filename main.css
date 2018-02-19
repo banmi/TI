@@ -10,6 +10,8 @@ body {
     background: -o-linear-gradient(bottom right, #c4d7f1, #65a5ff); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #c4d7f1, #65a5ff); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #c4d7f1, #65a5ff); /* Standard syntax */
+   padding: 0; 
+   margin: 0; 
 }
 
 h1 {
@@ -45,15 +47,16 @@ header {
   padding-top: 20px;
 }
 
-div.box,
-div.box2,
-div.box3 {
-    text-align: center;
-    padding: 25px 0;
-    display: block; 
+.box, .box2, .box3 {
+  background: rgba(0,0,0,0.05);
+  margin: 50px 0;
+  padding: 30px !important; // bo gdzieś masz div.cośtam - to jest antypattern. samo .cośtam wystarczy
+  border: 1px solid;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.2);
 }
 
-div.box3 {
+.box3 {
     margin: auto 400px;;
 }
 
@@ -173,7 +176,7 @@ table caption {
   background-color:#fff; 
   border:2px solid #ccc; 
   border-radius:10px; 
-  padding:20px; 
+  padding: 20px;
 
 }
 
@@ -194,11 +197,7 @@ table caption {
 	margin-bottom:25px; 
 	width:245px; 
 }
-#contact2 {
-  padding: auto;
-  margin: auto;
 
-}
 
 #contact2 textarea {
   height: 200px;
@@ -210,7 +209,7 @@ table caption {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  padding-left: 200px;;
+  
 }
 
 .uni {
