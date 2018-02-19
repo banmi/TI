@@ -6,6 +6,10 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: -webkit-linear-gradient(left top, #c4d7f1, #65a5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #c4d7f1, #65a5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #c4d7f1, #65a5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #c4d7f1, #65a5ff); /* Standard syntax */
 }
 
 h1 {
@@ -35,41 +39,17 @@ div.box,
 div.box2,
 div.box3 {
     text-align: center;
-    margin: 14px;
-    padding: 36px 14px 40px 24px;
-    border-radius: 10px;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px 0 rgba(0,0,0,.1);
-    background: #207cfc; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #207cfc, #65a5ff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #207cfc, #65a5ff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #207cfc, #65a5ff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #207cfc, #65a5ff); /* Standard syntax */
-}
-
-div.box2 {
-    background: #207cfc; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #20fcb3, #65a5ff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #20fcb3, #65a5ff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #20fcb3, #65a5ff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #20fcb3, #65a5ff); /* Standard syntax */
-}
-
-div.box3 {
-    background: #207cfc; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #96c066, #dee9d1); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #96c066, #dee9d1); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #96c066, #dee9d1); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #96c066, #dee9d1); /* Standard syntax */
+    padding: 25px 0;
+    display: block; 
 }
 
 nav {
     width: 100%;
-    margin: 0px;
     font-size: 22px;
   }
   
 nav ul {
-    background-color: #c3db6d;
+    background-color: #a5adad;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -87,11 +67,11 @@ nav ul {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #0e2796;
+    color: #3e3e41;
   }
   
   ul.topnav li a:hover {
-    background-color: #ff0022;
+    background-color: #15299e;
     color: #fff;
   }
   
@@ -133,17 +113,6 @@ nav ul {
     margin: 10px 40px 10px 40px;
   }
   
-  footer.footsy {
-    background-color: #fff;
-    float: right;
-  }
-  
-  form {
-    width: 40%;
-  
-  }
-  
-  
   .hn-btn {
     background: #3498db;
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
@@ -182,4 +151,37 @@ table caption {
 
 .js-hn-root {
     text-align: center;
+}
+
+.contact {
+  width:300px; 
+  margin:0 auto; 
+  background-color:#fff; 
+  border:2px solid #ccc; 
+  border-radius:10px; 
+  padding:20px; 
+  margin-top:20px; 
+  font-size: 
+}
+
+.contact label {
+  display:block;
+  margin-bottom:5px;
+  font-weight:bold; 
+  text-transform: uppercase; 
+  font-size:15px; 
+  color:#555555; 
+}
+
+.contact textarea,
+.contact input {
+	padding:5px; 
+	border-radius:3px; 
+	border:1px solid #ccc; 
+	margin-bottom:25px; 
+	width:245px; 
+}
+
+.footsy {
+  padding: 20px;
 }
