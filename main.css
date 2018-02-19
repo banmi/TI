@@ -27,6 +27,16 @@ h3 {
     text-align: center;
 }
 
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 26px;
+  text-align: center;
+}
+
 p {
     font-size: 20px;
 }
@@ -186,3 +196,12 @@ table caption {
   padding: 20px;
 }
 
+.uni {
+  display:block;
+  padding: 20px 20px;
+  margin-bottom:15px;
+  background-color:#ffffffb7; 
+  border:2px solid #ccc; 
+  border-radius:10px; 
+}
+  
