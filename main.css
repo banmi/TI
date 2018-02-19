@@ -41,8 +41,8 @@ p {
     font-size: 20px;
 }
 
-main {
-    padding: 20px;
+header {
+  padding-top: 20px;
 }
 
 div.box,
@@ -51,6 +51,10 @@ div.box3 {
     text-align: center;
     padding: 25px 0;
     display: block; 
+}
+
+div.box3 {
+    margin: auto 400px;;
 }
 
 nav {
