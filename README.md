@@ -1,5 +1,5 @@
 # TI
 
-Brak designu to mało powiedziane...
+Pierwsze kroki z JSem, design leży. Zostawione z sentymentu.
 
 https://banmi.github.io/TI/
